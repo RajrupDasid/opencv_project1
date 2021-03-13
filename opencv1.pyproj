@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b79e8898-2086-4150-92e8-83c8e8dfffea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Color scale histogram.py</StartupFile>
+    <StartupFile>Threshhold image.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="opencv1.py" />
+    <Compile Include="Threshhold image.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Videos\" />
