@@ -1,5 +1,10 @@
 import cv2 as cv
 
+
+#change res of live video
+def changeres(width,height):
+    capture.set(3,weight)
+    capture.set(4,height)
 #reading videos
 capture = cv.VideoCapture('Videos/dog.mp4')
 def rescaleFrame(frame, scale=0.2):
