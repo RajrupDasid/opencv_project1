@@ -8,7 +8,7 @@ circle= cv.circle(blank,(img.shape[1]//2 +30 ,img.shape[0]//2 -110 ), 190, 255, 
 mask= cv.bitwise_and( img, img, mask=circle)
 cv.imshow('Mask',mask)
 
-#color histo gram
+#color histogram
 plt.figure()
 plt.title('Color scale histogram')
 plt.xlabel('Bins')
