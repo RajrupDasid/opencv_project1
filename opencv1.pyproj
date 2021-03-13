@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b79e8898-2086-4150-92e8-83c8e8dfffea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>draw.py</StartupFile>
+    <StartupFile>masking.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="imagerecog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="masking.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="opencv1.py" />
