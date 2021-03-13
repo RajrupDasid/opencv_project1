@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b79e8898-2086-4150-92e8-83c8e8dfffea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Gray scale histogram.py</StartupFile>
+    <StartupFile>Color scale histogram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
