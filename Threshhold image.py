@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('Photos/beargrylls.jpg')
+img = cv.imread('Photos/Butterfly.jpg')
 cv.imshow('Manvswild',img)
 #simple thresholding
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)

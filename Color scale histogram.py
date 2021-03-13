@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
-img = cv.imread('Photos/Bear.jpeg')
+img = cv.imread('Photos/Butterfly.jpg')
 cv.imshow('Bear', img)
 blank = np.zeros(img.shape[:2], dtype='uint8')
 mask= cv.circle(blank,(img.shape[1]//2 +30 ,img.shape[0]//2 -110 ), 190, 255, -1)

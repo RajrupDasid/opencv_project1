@@ -24,6 +24,9 @@
     <Compile Include="Color scale histogram.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="edgedetect.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Gray scale histogram.py">
       <SubType>Code</SubType>
     </Compile>
