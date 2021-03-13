@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b79e8898-2086-4150-92e8-83c8e8dfffea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>edgedetect.py</StartupFile>
+    <StartupFile>Facedetectionhaarcascades.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,9 @@
     <Compile Include="edgedetect.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Facedetectionhaarcascades.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Gray scale histogram.py">
       <SubType>Code</SubType>
     </Compile>
@@ -47,6 +50,9 @@
   <ItemGroup>
     <Folder Include="Videos\" />
     <Folder Include="Photos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="haarcascade.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
