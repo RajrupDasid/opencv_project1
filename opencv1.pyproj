@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b79e8898-2086-4150-92e8-83c8e8dfffea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Facedetectionhaarcascades.py</StartupFile>
+    <StartupFile>facerecognition.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Facedetectionhaarcascades.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="facerecognition.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Gray scale histogram.py">
